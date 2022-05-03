@@ -3,6 +3,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,nextjs,react,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,nextjs,react,sass
 
+
+### Prod Environment ###
+.env
+
 ### NextJS ###
 # Next build dir
 .next/
