@@ -28,9 +28,9 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 You will need a GraphCMS account with the below Schema:
 
-##Models:
+## Models:
 
-###Post
+### Post
 
 | Field Name | Field Type | Reference Type | Unique | Required | Multiple Values |
 | --- | --- | ---| --- | --- | --- |
