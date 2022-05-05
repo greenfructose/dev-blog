@@ -30,6 +30,31 @@ You will need a GraphCMS account with the below Schema:
 
 ## Models:
 
+### Author
+| Field Name | Field Type | Reference Type | Unique | Required | Multiple Values |
+| --- | --- | ---| --- | --- | --- |
+| Name | Single Line Text | n/a | true | true | false |
+| Photo | Asset | n/a | false | false | false |
+| Bio | Multi Line Text | n/a | false | false | false |
+| Posts | Reference | Two-way Reference | false | false | true|
+
+### Category
+
+| Field Name | Field Type | Reference Type | Unique | Required | Multiple Values |
+| --- | --- | ---| --- | --- | --- |
+| Name | Single Line Text | n/a | true | true | false |
+| Slug | Slug | n/a | true | true | false |
+| Posts | Reference | Two-way Reference | false | false | true |
+
+### Comment
+
+| Field Name | Field Type | Reference Type | Unique | Required | Multiple Values |
+| --- | --- | ---| --- | --- | --- |
+| Name | Single Line Text | n/a | false | true | false|
+| Email | Single Line Text | n/a | false | true | false |
+| Comment | Multi Line Text | n/a | false | true | false |
+| Post | Reference | Two-way Reference | false | true | false |
+
 ### Post
 
 | Field Name | Field Type | Reference Type | Unique | Required | Multiple Values |
