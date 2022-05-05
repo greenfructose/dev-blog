@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) dev-blog project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and styled with [TailwindCSS](https://tailwindcss.com/). [GraphQL](https://graphql.org/) is used for models and [GraphCMS](https://graphcms.com/) is used for content management via API.
 
-I made this following this [tutorial](https://youtu.be/HYv55DhgTuA) from [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A), he is a great resource for learning modern web development. After I finished the tutorial, I added more features and changed up some of the styling.
+I made this following this [tutorial](https://youtu.be/HYv55DhgTuA) from [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A), he is a great resource for learning modern web development. After I finished the tutorial, I added more features and changed up some of the styling. Deployed on [Vercel](https://dev-blog-delta.vercel.app/).
 
 ## Getting Started
 
