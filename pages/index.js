@@ -21,7 +21,7 @@ export default function Home({ posts }) {
           property="og:description"
           content="Dev blog written with Next.js and GraphQL, styled with TailwindCSS and hosted on Vercel"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://dev-blog-delta.vercel.app/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
