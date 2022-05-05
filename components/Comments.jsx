@@ -21,13 +21,13 @@ const Comments = ({ slug }) => {
           {comments.map((comment) => (
             <div
               key={comment.createdAt}
-              className="border-b border-gray-100 mb-4 pb-4"
+              className="border border-gray-600 mb-4 pb-4 rounded-lg p-2 bg-gray-100"
             >
               <p className="mb-4">
                 <span className="font-semibold">{comment.name}</span> on{" "}
                 {moment(comment.createdAt).format("MMM DD, YYYY")}
               </p>
-              <p className="whitespace-pre-line text-gray-600 w-full">
+              <p className="whitespace-pre-line text-gray-800 w-full">
                 {parse(comment.comment)}
               </p>
             </div>

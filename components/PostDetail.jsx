@@ -52,7 +52,7 @@ const PostDetail = ({ post }) => {
             <span>{moment(post.createdAT).format("MMM DD, YYYY")}</span>
           </div>
         </div>
-        <h1 className="mb-8 text-3xl font-semibold">{post.title}</h1>
+        <h1 className="mb-8 text-5xl font-semibold pb-8 border-b">{post.title}</h1>
         <div
           className="post-content"
           dangerouslySetInnerHTML={{ __html: html }}
