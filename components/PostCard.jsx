@@ -6,7 +6,7 @@ import Image from "next/image";
 const PostCard = ({ post }) => {
   console.log(post);
   return (
-    <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+    <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 opacity-90">
       <div className="relative overflow-hidden shadow-md pb-80 mb-6">
         <Image
           layout="fill"

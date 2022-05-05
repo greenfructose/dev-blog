@@ -39,7 +39,7 @@ const FeaturedPosts = () => {
     <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full"
+        className="h-6 w-6 text-white w- ml-3"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -58,7 +58,7 @@ const FeaturedPosts = () => {
     <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full"
+        className="h-6 w-6 text-white w-full ml-3"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -74,13 +74,13 @@ const FeaturedPosts = () => {
   );
 
   return (
-    <div className="mb-8">
+    <div className="mb-8 adjacent-post">
       <Carousel
         infinite
         customLeftArrow={customLeftArrow}
         customRightArrow={customRightArrow}
         responsive={responsive}
-        itemClass="px-4"
+        itemClass="px-4 "
       >
         {dataLoaded &&
           featuredPosts.map((post, index) => (
