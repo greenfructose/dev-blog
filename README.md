@@ -26,7 +26,7 @@ Then start the Tailwind CLI build process
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
-You will need a GraphCMS account with the below Schema:
+You will need a GraphCMS account and a project with the below Schema:
 
 ## Models:
 
@@ -69,7 +69,12 @@ You will need a GraphCMS account with the below Schema:
 | Categories | Reference | Two-way Reference | false | true | true |
 | Comments | Reference | Two-way Reference | false | false | true |
 
+Your `.env` file should look like this:
 
+```bash
+NEXT_PUBLIC_GRAPHCMS_ENDPOINT=your_enpoint_url
+GRAPHCMS_TOKEN=your_token
+```
 Finally, run the development server:
 
 ```bash
