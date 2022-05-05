@@ -84,14 +84,6 @@ export const getPostDetails = async (slug) => {
   `;
 
     const result = await request(graphqlAPI, query, { slug });
-    console.log(result.post.content)
-    for (let child in result.post.content.raw.children) {
-        if (child.type == 'paragraph') {
-            for (let item in child.children)
-                console.log(item)
-        }
-        
-    }
     return result.post;
 };
 
