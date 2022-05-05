@@ -32,6 +32,20 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@graphcms/rich-text-html-renderer@^0.1.0":
+  "integrity" "sha512-kRfC0a1eT3JlXjKxwK1WQqALjQDzNcw/MIBz2LwxaMxBbz8oT25wf9+T+lPzhQOPcAGmZMOQDQm9ipUwDc1BdA=="
+  "resolved" "https://registry.npmjs.org/@graphcms/rich-text-html-renderer/-/rich-text-html-renderer-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@graphcms/rich-text-types" "^0.4.0"
+
+"@graphcms/rich-text-types@^0.4.0":
+  "integrity" "sha512-eqvI/FrtHH9k+AYpKJ6ZMlc8eZmwidam8YlObDD9wBfEJhK2vnQ7ERU01IGiq/jzwVdEPeId/AhQREZUFVaApg=="
+  "resolved" "https://registry.npmjs.org/@graphcms/rich-text-types/-/rich-text-types-0.4.0.tgz"
+  "version" "0.4.0"
+  dependencies:
+    "tslib" "^2.0.0"
+
 "@humanwhocodes/config-array@^0.9.2":
   "integrity" "sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz"
@@ -600,6 +614,11 @@
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
   "resolved" "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   "version" "3.1.1"
+
+"escape-html@^1.0.3":
+  "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
+  "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+  "version" "1.0.3"
 
 "escape-string-regexp@^4.0.0":
   "integrity" "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="
@@ -1957,6 +1976,11 @@
   "integrity" "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   "version" "1.14.1"
+
+"tslib@^2.0.0":
+  "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+  "version" "2.4.0"
 
 "tsutils@^3.21.0":
   "integrity" "sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA=="

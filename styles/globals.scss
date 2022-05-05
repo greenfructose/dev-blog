@@ -44,9 +44,6 @@ body {
   text-shadow: 0px 2px 0px rgb(0 0 0 / 30%);
 }
 
-
-
-
 .react-multi-carousel {
   & .arrow-btn {
     transition: all 300ms ease-in-out;
@@ -78,4 +75,44 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.post-content h1 {
+  color: #111827;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.post-content h2 {
+  color: #111827;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.post-content h3 {
+  color: #111827;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.post-content h4 {
+  color: #111827;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-content p {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.post-content a {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.post-content img {
+  margin: 2rem;
+  border-radius: 5%;
 }
