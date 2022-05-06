@@ -6,7 +6,7 @@ import { FeaturedPosts } from '../sections';
 
 export default function Home({ posts }) {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto sm:px-5 md:px-10 mb-8">
       <Head>
         <title>Dev Blog</title>
         <meta name="description" content="Dev blog written with Next.js and GraphQL" />
