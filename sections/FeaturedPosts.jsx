@@ -77,10 +77,14 @@ const FeaturedPosts = () => {
     <div className="mb-8 adjacent-post">
       <Carousel
         infinite
+        ssr={true}
+        autoPlaySpeed={4000}
         customLeftArrow={customLeftArrow}
         customRightArrow={customRightArrow}
         responsive={responsive}
         itemClass="px-4 "
+        removeArrowOnDeviceType={["mobile"]}
+        swipeable={true}
       >
         {dataLoaded &&
           featuredPosts.map((post, index) => (
