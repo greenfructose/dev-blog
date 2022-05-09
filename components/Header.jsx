@@ -18,6 +18,7 @@ const Header = () => {
               Dev Blog
             </span>
           </Link>
+          <p className="text-white">Blog built by <a className="" href="https://www.justinturney.com">Justin Turney</a></p>
         </div>
         <div className="hidden md:float-left md:contents">
           {categories.map((category) => (

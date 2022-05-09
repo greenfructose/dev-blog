@@ -75,10 +75,10 @@ const FeaturedPosts = () => {
 
   return (
     <div className="mb-8 adjacent-post">
+      <h2 className="text-xl text-white text-center mb-8 font-semibold">Featured Posts</h2>
       <Carousel
         infinite
         ssr={true}
-        autoPlaySpeed={4000}
         customLeftArrow={customLeftArrow}
         customRightArrow={customRightArrow}
         responsive={responsive}
