@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { getPosts, getPostDetails } from '../../services';
 import { AdjacentPosts } from '../../sections';
 
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader } from '../../components';
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, ScrollButton } from '../../components';
 
 const PostDetails = ({ post }) => {
     const router = useRouter();
@@ -29,6 +29,7 @@ const PostDetails = ({ post }) => {
                     </div>
                 </div>
             </div>
+            <ScrollButton />
         </div>
     )
 }
