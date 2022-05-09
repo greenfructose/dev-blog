@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, Categories, PostWidget } from '../components/';
+import { PostCard, Categories, PostWidget, ScrollButton } from '../components/';
 import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections';
 
@@ -37,8 +37,8 @@ export default function Home({ posts }) {
             <Categories />
           </div>
         </div>
+        <ScrollButton />
       </div>
-
     </div>
   )
 }
