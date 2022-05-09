@@ -5,7 +5,7 @@ import Link from "next/link";
 const AdjacentPostCard = ({ post, position }) => (
   <>
     <div
-      className="adjacent-post absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72"
+      className="adjacent-post absolute md:rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72"
       style={{ backgroundImage: `url('${post.featuredImage.url}')` }}
     />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-72" />

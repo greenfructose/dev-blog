@@ -11,7 +11,7 @@ const PostDetail = ({ post }) => {
   });
 
   return (
-    <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8 opacity-90 pt-4">
+    <div className="bg-white shadow-lg md:rounded-lg lg:p-8 pb-12 mb-8 opacity-90 pt-4">
       <div className="relative overflow-hiddn shadow-md mb-6">
         <Image
           layout="fill"
